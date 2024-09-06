@@ -1,5 +1,5 @@
 /*
-1. What size of an apartment can I expect with a weekly rent of 700-850 AUD in different suburbs of melbourne?
+1. What size of an apartment can I expect with a weekly rent of 700-850 AUD in different suburbs of Australia?
 */
 
 select * from realestat_flatten;

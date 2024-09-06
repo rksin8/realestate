@@ -1,5 +1,5 @@
 /*
-1. What is the avg sale price for apartments 2-3 bedrooms in major cities of Australia?
+1. What is the avg sale price for apartments 2-3 bedrooms in major state of Australia?
 
 */
 

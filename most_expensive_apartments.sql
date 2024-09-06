@@ -1,6 +1,6 @@
 /*
-1. What are the most expensive apartments in major cities of Poland? 
-Display the ad titile in english along with the city, suburb, cost, size.
+1. What are the most expensive apartments in major state of Australia? 
+Display the ad titile along with the city, suburb, cost, size.
 
 */
 
@@ -14,7 +14,7 @@ select state,
 	from realestat_flatten where 
 	state in ('Vic','NSW','WA')
 	and propertytype='apartment'
-	and rent is not null and rent > 100
+	and rent is not null and rent > 1000
 	group by state
 	order by max_rent desc;
 
@@ -26,7 +26,7 @@ with cte as
 	from realestat_flatten where 
 	state in ('Vic','NSW','WA')
 	and propertytype='apartment'
-	and rent is not null and rent > 100
+	and rent is not null and rent > 1000
 	group by state
 	)
 	select x.title, x.state, x.suburb, x.rent

@@ -45,7 +45,7 @@ with cte as
 	state in ('Vic')
 	and propertytype='apartment'
 	and rent is not null
-	and rent > 700
+	and rent > 1000
 	group by suburb
 	)
 	select *

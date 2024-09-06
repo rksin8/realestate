@@ -1,5 +1,5 @@
 /*
-1. What is the avg rent for apartments in Victoria in different suburbs? 
+1. What is the avg rent for apartments in Victoria different suburbs? 
 Categories the result based on number of bedrooms?
 
 */

@@ -1,5 +1,5 @@
 /*
-1. I want to buy an apartement which is around 90-100 m2 and within a range of 800000 to 1M,
+1. I want to buy an apartement within a range of 700 to 800,
 display the suburbs in Melbourne where I can find such appartments
 */
 
