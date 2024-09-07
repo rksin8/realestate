@@ -1,5 +1,6 @@
 /*
-1. What is the avg sale price for apartments 2-3 bedrooms in major state of Australia?
+7. What is the avg rent for apartments in Victoria different suburbs? 
+Categories the result based on number of bedrooms?
 
 */
 
@@ -8,13 +9,13 @@ select * from realestat_flatten where rent is not null limit 20;
 select rent from realestat_flatten limit 20;
 
 
-select state,
-	avg(rent) as avg_rent
+select suburb
+	, bedrooms
+	, round(avg(rent),2) as avg_rent
 	from realestat_flatten where 
-	state in ('Vic','NSW','WA')
+	state in ('Vic')
 	and propertytype='apartment'
 	and rent is not null and rent > 100
-	and bedrooms between 2 and 3
-	group by state
+	group by suburb, bedrooms
 	order by avg_rent desc;
 

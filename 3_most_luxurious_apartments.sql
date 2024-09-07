@@ -1,5 +1,5 @@
 /*
-1. Which are the top 3 most luxurios neighbourhoods in Victoria in different suburbs? 
+3. Which are the top 3 most luxurios neighbourhoods in Victoria in different suburbs? 
 Luxurious neighborhoods can be defined as suburbs which has the most no. of apartments
 costing over $1000 per week.
 

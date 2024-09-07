@@ -1,5 +1,5 @@
 /*
-1. What is the average rental price of 1 room, 2 room, 3 room apartments in the major suburbs in Australia?
+2. What is the average rental price of 1 room, 2 room, 3 room apartments in the major suburbs in Australia?
 Arrange the result such that avg rent for each type of room is shown in separate column
 */
 

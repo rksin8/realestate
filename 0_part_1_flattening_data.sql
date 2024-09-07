@@ -7,6 +7,7 @@
 BEGIN;
 
 CREATE TEMP TABLE target(data jsonb) on commit drop;
+
 copy target  from 'C:/Users/Admin/Documents/Data Analyst Portfolio Projects/realestate/test_new.json' 
 	csv quote e'\x01' delimiter e'\x02';
 
@@ -66,7 +67,7 @@ select  NULLIF(data->> 'listingId','')::int as listingId
 
 
 
-drop table realestat_flatten;
+drop table if exists realestat_flatten;
 
 -- create a new table of flatten data
 create table if not exists realestat_flatten
